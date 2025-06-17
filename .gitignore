@@ -1,0 +1,54 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C/C++ build artifacts
+*.o
+*.obj
+*.so
+*.dll
+*.exe
+*.out
+*.a
+*.lib
+*.h.gch
+
+# Arduino build files
+*.elf
+*.bin
+*.hex
+
+# Python virtual environments
+venv/
+iot-env/
+.env/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Data and model artifacts
+temperature_log.csv
+lstm_autoencoder.pth
+lstm_autoencoder.onnx
+anomaly_threshold.npy
+scaler.save
+
+# Auto-generated headers and C++ files
+lstm_autoencoder_weights.h
+model_params.h
+lstm_forward_pass.cpp
+
+# Miscellaneous
+.DS_Store
+Thumbs.db
+
+# VSCode settings
+.vscode/
+
+# Log files
+*.log
+
+# Ignore deployment artifacts
+*.zip
+*.tar.gz
