@@ -1,0 +1,7 @@
+# PyTorch LSTM Autoencoder requirements
+numpy
+pandas
+torch
+scikit-learn
+onnx
+joblib
